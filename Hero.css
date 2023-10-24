@@ -1,0 +1,136 @@
+.hero-wrapper{
+    color:white;
+    position:relative;
+    padding-bottom:2rem;
+    z-index: 99;
+     
+
+}
+.hero-container{
+    justify-content:space-between;
+    align-items: flex-end;
+}
+
+/* LEFT SIDE */
+
+.hero-left{
+    gap:3rem
+
+}
+
+.hero-title{
+    position:relative;
+    z-index: 1;
+}
+.hero-title h1{
+    font-size: 600;
+    font-size: 3.8rem;
+    line-height: 4rem;
+    z-index: 1rem;
+    font-weight: 300;
+}
+.orange-circle{
+    height:4rem;
+    width:4rem;
+    background:var(--orange-gradient);
+    border-radius:999px;
+    position: absolute;
+    right: 28%;
+    z-index: -1;
+    top:-10%;
+
+}
+.search-bar{
+    background-color: white;
+    border-radius: 5px;
+    border:3px solid rgba(120,120,120,0.374);
+    padding:0.5rem,1rem;
+    justify-content: space-between;
+  width:100%;
+
+}
+.search-bar input{
+    border:none;
+    outline:none;
+    font-family: sans-serif;
+    padding: 3px 3px 3px 3px;
+    cursor:pointer;
+}
+.search-bar button{
+   background-color: rgb(62, 36, 206);
+   padding:4px 4px;
+
+}
+.search-bar button:hover{
+    scale: 1.2em;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.stats{
+    width:100%;
+    justify-content: space-between;
+}
+
+   
+.secondaryText{ 
+    color:rgb(140,139,139);
+    font-size:1rem;
+  
+  }
+  .orangeText{
+    color:#ff922d;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .button{
+    font-weight:500;
+    padding:0.6rem,1.4rem;
+    color: aliceblue;
+    background-color: blue;
+    border:none;
+    font-family: sans-serif;
+    padding: 1rem,1rem;
+    font-size: 20px;
+    padding-left: 1rem;
+    padding-right:1rem;
+  }
+
+/* Right side */
+
+.image-container{
+    width:30rem;
+    height:30rem;
+    overflow:hidden;
+    border-radius: 25rem ;
+    border:8px solid(255,255,255,0.125);
+    justify-content: right;
+    align-items: right;
+    
+
+    
+}
+.image-container>img{
+    width:100%;
+    height:100%;
+}
+@media(max-width:640){
+    .hero-container{
+        margin-top: 2rem;
+    }
+    .hero-title .h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .image-container{
+        width:90%;
+        height: 20rem;
+    }
+    .stats{
+        justify-content: center;
+        gap:1.5rem;
+
+    }
+    .hero-right{
+        width:100%;
+    }
+}

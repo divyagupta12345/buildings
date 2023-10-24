@@ -1,0 +1,26 @@
+.App{
+    position:relative;
+    overflow-x:clip;
+    
+}
+.App>:nth-child(1)
+{
+ background-color:black;
+ position:relative;
+ 
+
+}
+.white-gradient{
+     position: absolute;
+    width:18rem;
+    height:15rem;
+    background-color: rgba(216, 206, 206, 0.86);
+    filter:blur(100px);
+    border-radius:700px;
+    padding-top: 50px;
+    padding-left: 20px;
+    
+
+    
+
+}

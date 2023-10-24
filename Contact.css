@@ -1,0 +1,142 @@
+ 
+
+.c-left{
+    gap:0.5rem;
+    justify-content: left;
+    margin-right: 25rem;
+    
+}
+.c-left .orangeText{
+    gap:0.5rem;
+    justify-content: left;
+    margin-right: 25rem;
+    font-size:30px;
+
+    
+}
+.contactModes{
+       justify-content: space-between;
+    
+    gap:1rem;
+    right:45rem;
+}
+.contactModes .row{
+    gap:1.5rem;
+}
+.mode{
+    width:18rem;
+    
+    padding:1rem;
+    border:0.8px solid rgba(128,128,128,0.14);
+    border-radius: 10px;
+    gap:1rem;
+    transition: all 300ms ease-in;
+    cursor: pointer;
+    font-size: 10px;
+    
+    margin-right: 40rem;
+}
+
+.mode .button{
+    width:100%;
+    background: var(--lightBlue);
+    color:blue;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 2px;
+    font-family: sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+  .mode> :nth-child(1){
+    width:100%;
+    gap:1.6rem;
+} 
+
+
+
+
+.mode.details.primaryText{
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 10px;
+}  
+
+.made .button:hover{
+    background: blue;
+    color: white;
+    scale: 0.8;
+}
+ .made:hover{
+    scale:1.1;
+    box-shadow: var(--shadow); 
+}
+
+.contactModes{
+    margin-top:2rem;
+    gap:1rem;
+    margin-left: 4rem;
+    
+
+}
+.contactModes .row{
+    gap:1.5rem;
+}
+
+  .c-right   .image-container{
+       justify-content: right;
+      width:100%;
+      width:40rem;
+      height: 40rem;
+      margin-left: 45rem;
+      margin-bottom: 40rem;
+      margin-right: 20rem;
+      
+  }
+  .flexColStart .row{
+    
+    right: 40rem;
+  }
+ @media(max-width:1024px){
+    .c-container{
+        flex-direction: column;
+        
+
+    }
+    .c-right{
+        justify-content: center;
+    }
+    .contactModes{
+        width:100%;
+        left: 20rem;
+        display: flex;
+        flex-direction: row;
+    }
+    .row{
+        flex-direction: column;
+        display: flex;
+    }
+    .mode{
+        width: 100%;
+    }
+    .c-left{
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        margin-left: 13rem;
+    
+    }
+    .orangeText{
+        margin-left: 27rem;
+    }
+
+ }
+
+
+
+
+
+
+
+
